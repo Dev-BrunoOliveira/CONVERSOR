@@ -60,10 +60,31 @@ main #result span {
     margin-left: 50px;
 }
 
-.logo {
-    position: fixed;
-    top: 10px;
-    right: 10px;
-    width: 120px;
 
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1.2rem;
+    }
+
+    .restaurant {
+        flex-direction: column;
+    }
+
+    .restaurant img {
+        width: 100%;
+        height: auto;
+    }
+
+    .details h2 {
+        font-size: 1.5rem;
+    }
+
+    .details p {
+        font-size: 1rem;
+    }
 }
