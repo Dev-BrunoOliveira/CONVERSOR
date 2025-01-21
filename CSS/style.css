@@ -37,7 +37,7 @@ form {
 }
 
 form button {
-    background-color: #5aba8d;
+    background-color: #19e1f0;
     color: #fff;
     font-size: 1.2em;
     font-weight: 700;
@@ -46,12 +46,12 @@ form button {
 
 form button:hover {
     background-color: #fff;
-    color: #5aba8d;
+    color: #19e1f0;
 }
 
 main #result {
 font-size: 3.5em;
-color: #2f9766;
+color: #19e1f0;;
 }
 
 main #result span {

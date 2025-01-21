@@ -1,13 +1,12 @@
 header {
-    width: 100%;
-    background-color: #5aba8d;
-    padding: 20px;
+  width: 100%;
+  background-color: #19e1f0;
+  padding: 20px;
 }
 
 header h1 {
-    color: #fff;
-    font-size: 3em;
-    text-align: center;
-    cursor: pointer;
-
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  cursor: pointer;
 }
