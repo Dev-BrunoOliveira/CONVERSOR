@@ -21,23 +21,13 @@ function handleSubmit(e) {
 }
 
 function converter() {
-<<<<<<< HEAD
-    if (selectCurrency.value === 'eur') {
-        valueConverter = inputvalue.value / 6.32;
-        result.innerHTML = valueFormatter('pt-BR', 'EUR');
-    } else if (selectCurrency.value === 'dol') {
-        valueConverter = inputvalue.value / 6.02;
-        result.innerHTML = valueFormatter('en-US', 'USD');
-    }
-=======
   if (selectCurrency.value === "eur") {
     valueConverter = inputvalue.value / 6.03;
     result.innerHTML = valueFormatter("pt-BR", "EUR");
   } else if (selectCurrency.value === "dol") {
-    valueConverter = inputvalue.value / 5.47;
+    valueConverter = inputvalue.value / 5.47; 
     result.innerHTML = valueFormatter("en-US", "USD");
   }
->>>>>>> 3fefeb8 (alterando cores)
 
   inputvalue.value = "";
   selectCurrency.value = "";
