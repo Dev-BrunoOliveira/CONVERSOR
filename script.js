@@ -25,7 +25,7 @@ function converter() {
     valueConverter = inputvalue.value / 6.03;
     result.innerHTML = valueFormatter("pt-BR", "EUR");
   } else if (selectCurrency.value === "dol") {
-    valueConverter = inputvalue.value / 5.47; 
+    valueConverter = inputvalue.value / 5.47;
     result.innerHTML = valueFormatter("en-US", "USD");
   }
 
@@ -39,7 +39,7 @@ function valueFormatter(locale, currency) {
     style: "currency",
     currency: currency,
   });
-  return `<span>🤑</span> ${value} <span>🤑</span>`;
+  return `<span></span> ${value} <span></span>`;
 }
 
 function animateResult() {
