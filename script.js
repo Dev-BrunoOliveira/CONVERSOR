@@ -22,7 +22,7 @@ function handleSubmit(e) {
 
 function converter() {
   if (selectCurrency.value === "eur") {
-    valueConverter = inputvalue.value / 6.03;
+    valueConverter = inputvalue.value / 6.19;
     result.innerHTML = valueFormatter("pt-BR", "EUR");
   } else if (selectCurrency.value === "dol") {
     valueConverter = inputvalue.value / 5.73;
