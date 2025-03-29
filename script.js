@@ -48,3 +48,17 @@ function animateResult() {
     { duration: 800 }
   );
 }
+
+function toggleTheme() {
+  let themeIcon = document.getElementById('theme-icon');
+
+  if (document.body.classList.contains('dark-mode')) {
+      document.body.classList.remove('dark-mode');
+      document.body.classList.add('light-mode'); 
+      themeIcon.textContent = '🌙'; 
+  } else {
+      document.body.classList.remove('light-mode');
+      document.body.classList.add('dark-mode'); 
+      themeIcon.textContent = '☀️'; 
+  }
+}
